@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import sys; sys.path.insert\\(0, '.'\\); from ai_dev_team.config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, DEEPSEEK_MODEL, MAX_RETRY, TEMPERATURE, PROJECT_ROOT, WORKSPACE_DIR, PROMPTS_DIR, CODE_EXEC_TIMEOUT, BANNED_IMPORTS; print\\('config OK'\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, '.'\\); from ai_dev_team.agents import ProductManagerAgent, DeveloperAgent, TesterAgent; print\\('agents OK'\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, '.'\\); from ai_dev_team.tools import code_executor_tool, file_write_tool, file_read_tool, file_list_tool, web_search_tool; print\\('tools OK'\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, '.'\\); from ai_dev_team.config import DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL, DEEPSEEK_MODEL, MAX_RETRY, TEMPERATURE, PROJECT_ROOT, WORKSPACE_DIR, PROMPTS_DIR, CODE_EXEC_TIMEOUT, BANNED_IMPORTS; print\\('config OK'\\); print\\(f'  PROJECT_ROOT = {PROJECT_ROOT}'\\); print\\(f'  WORKSPACE_DIR = {WORKSPACE_DIR}'\\); print\\(f'  PROMPTS_DIR = {PROMPTS_DIR}'\\)\")",
+      "Bash(python -c \"import sys; sys.path.insert\\(0, '.'\\); from ai_dev_team.tools import web_search_tool; print\\('web_search_tool import OK'\\); print\\(type\\(web_search_tool\\)\\)\")",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"from duckduckgo_search import DDGS; help\\(DDGS.text\\)\")",
+      "Bash(D:\\\\python\\\\python.exe *)"
+    ]
+  }
+}
